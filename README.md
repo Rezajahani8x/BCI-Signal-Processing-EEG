@@ -15,3 +15,5 @@ Classifier 2: Classifies the data between class 3 and class{1,2}
 Classifier 3: Classifies the data between class 1 and class 2
 
 Each classifier is developed according to CSP filters which mapps the data which is a multi-channel observation in T samples to a feature vector. Furthermore, an LDA vector is calculated to separate the classes.
+
+For each subject butterworth filters with different parameters are applied to the data for enhancing the performance.
